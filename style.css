@@ -7,7 +7,7 @@ body {
     margin: auto;
     width: 70%;
     background-color: rgb(121, 21, 252);
-    color: rgb(29, 0, 160)
+    color: rgb(29, 0, 160);
 }
 
 p {  width: 90%; text-align: left; margin:auto; margin-top:0.8rem;}
@@ -23,7 +23,7 @@ h2{ font-size: 2.5rem;}
 h3{font-size: 1.5rem;}
 h4{font-size: 1.2rem;}
 
-a {font-size: 1.15rem;}
+a {font-size: 1.05rem; text-decoration: none; color:rgb(66, 62, 255);}
 
 main {background-color: rgba(123, 125, 255, 0.664);}
 
@@ -31,3 +31,5 @@ main {background-color: rgba(123, 125, 255, 0.664);}
 h2,h3,h4 {text-align: center; margin-top: 1.5rem; margin-bottom: 1rem;}
 
 ul{list-style: none; text-align: center;}
+
+.songs { text-align: center; list-style-position: inside;}
