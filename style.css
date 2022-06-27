@@ -1,3 +1,45 @@
+@media only screen and (min-width:767px) {
+
+    .albums {display: grid; grid-template-columns:  1fr;}
+    .albums div{margin:auto;}
+    .albums img {width: 300px;}
+    
+    
+    
+}
+
+@media only screen and (max-width:767px) {
+
+   
+    .albums h2 { font-size: 1.2rem; text-align: center;}
+    
+    
+}
+
+@media only screen and (min-width:768px) {
+
+    .albums {display: grid; grid-template-columns: 1fr 1fr;}
+    .albums div{margin:auto}
+    .albums img {width: 300px;}
+    .albums h2 { font-size: 1rem; text-align: center;}
+    
+}
+
+@media only screen and (min-width:1000px) {
+    .albums {display: grid; grid-template-columns: 1fr 1fr;}
+    .albums div{margin:auto}
+    .albums img {width: 400px;}
+    .albums h2 { font-size: 1.7rem; text-align: center;}
+}
+
+@media only screen and (min-width:1400px) {
+    .albums {display: grid; grid-template-columns: 1fr 1fr;}
+    .albums div{margin:auto}
+    .albums img {width: 500px;}
+    .albums h2 { font-size: 1.7rem; text-align: center;}
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -33,3 +75,4 @@ h2,h3,h4 {text-align: center; margin-top: 1.5rem; margin-bottom: 1rem;}
 ul{list-style: none; text-align: center;}
 
 .songs { text-align: center; list-style-position: inside;}
+
