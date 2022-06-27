@@ -1,7 +1,7 @@
 body {
     margin: auto;
     width: 70%;
-    background-color: rgb(230, 96, 201);
+    background-color: rgb(255, 70, 215);
     color: rgb(29, 0, 160)
 }
 
@@ -18,3 +18,5 @@ h3{font-size: 1.5rem;}
 h4{font-size: 1.2rem;}
 
 a {font-size: 1.15rem;}
+
+main {background-color: rgba(251, 123, 255, 0.664);}
