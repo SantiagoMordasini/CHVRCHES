@@ -30,6 +30,12 @@
     .albums div{margin:auto}
     .albums img {width: 400px;}
     .albums h2 { font-size: 1.7rem; text-align: center;}
+    li { transition: all 350ms;}
+    li:hover { transform: scale(1.2, 1.2);}
+
+    a { transition: all 350ms;}
+    .dropdown-item:hover { background-color: rgba(255, 255, 255, 0); transform: scale(1.1, 1.1);}
+   
 }
 
 @media only screen and (min-width:1400px) {
@@ -37,6 +43,11 @@
     .albums div{margin:auto}
     .albums img {width: 500px;}
     .albums h2 { font-size: 1.7rem; text-align: center;}
+    li { transition: all 350ms;}
+    li:hover { transform: scale(1.2, 1.2);}
+
+    a { transition: all 350ms;}
+    .dropdown-item:hover { background-color: rgba(255, 255, 255, 0); transform: scale(1.1, 1.1);}
 }
 
 
@@ -70,8 +81,7 @@ a {font-size: 1.05rem; text-decoration: none; color:rgb(66, 62, 255); }
 .letras a{color: rgb(121, 121, 121);}
 .letras a:hover { color:rgb(66, 62, 255);}
 
-li { transition: all 350ms;}
-li:hover { transform: scale(1.2, 1.2);}
+
 
 main {background-color: rgba(123, 125, 255, 0.664);}
 
@@ -82,8 +92,7 @@ ul{list-style: none; text-align: center;}
 
 .songs { text-align: center; list-style-position: inside;}
 
-a { transition: all 350ms;}
-.dropdown-item:hover { background-color: rgba(255, 255, 255, 0); transform: scale(1.1, 1.1);}
+
 
 .logo {width:100px;}
 
