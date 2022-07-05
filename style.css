@@ -65,7 +65,13 @@ h2{ font-size: 2.5rem;}
 h3{font-size: 1.5rem;}
 h4{font-size: 1.2rem;}
 
-a {font-size: 1.05rem; text-decoration: none; color:rgb(66, 62, 255);}
+a {font-size: 1.05rem; text-decoration: none; color:rgb(66, 62, 255); }
+
+.letras a{color: rgb(121, 121, 121);}
+.letras a:hover { color:rgb(66, 62, 255);}
+
+li { transition: all 350ms;}
+li:hover { transform: scale(1.2, 1.2);}
 
 main {background-color: rgba(123, 125, 255, 0.664);}
 
@@ -75,4 +81,12 @@ h2,h3,h4 {text-align: center; margin-top: 1.5rem; margin-bottom: 1rem;}
 ul{list-style: none; text-align: center;}
 
 .songs { text-align: center; list-style-position: inside;}
+
+a { transition: all 350ms;}
+.dropdown-item:hover { background-color: rgba(255, 255, 255, 0); transform: scale(1.1, 1.1);}
+
+.logito:hover{transform: scale(1.1, 1.1);}
+.navbar-toggler-icon { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");}
+.navbar-toggler {border-color: rgba(0,0,0,.1);color: rgba(0,0,0,.5);}
+
 
